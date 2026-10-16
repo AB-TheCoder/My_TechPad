@@ -151,6 +151,7 @@ Knob 2 could come back by wiring its A/B contacts into the spare duplex position
 
 - 12 × SK6812 at full white ≈ 12 × 60 mA = **720 mA**. That's more than a basic USB port's 500 mA. [Likely, from about 20 mA per colour channel]
 - Firmware will cap brightness at about 40%, which is about 290 mA worst case. The default is a dim static cyan/purple, as the brief asks.
+- **Keys glow when pressed** (requested 2026-10-16): QMK's RGB Matrix has built-in reactive effects (for example `SOLID_REACTIVE_SIMPLE`, which lights the pressed key and fades it out). [Certain] They need a table mapping each LED to its key (`g_led_config`), so the LED chain order gets documented on the schematic. The 40% brightness cap still applies.
 - **Data-voltage caveat:** the LEDs run on 5 V, but the XIAO sends 3.3 V data. The usual logic-high threshold is 0.7 × 5 V = 3.5 V, so 3.3 V is slightly below spec. Most Hackpad builds work like this in practice. [Likely] If the first LED misbehaves, the usual fix is to feed that LED's power through a diode, which lowers its threshold. A spare 1N4148 can do that.
 
 ---
