@@ -1,0 +1,12 @@
+Ref,Part,Qty,Where,Source
+"U1","Seeed XIAO RP2040 (through-hole mount)","1","Back of PCB","Hackpad kit"
+"SW1 to SW12","MX-style mechanical switch","12","Top plate + PCB","Hackpad kit"
+"-","White blank DSA keycap","12","On the switches","Hackpad kit"
+"SW13","EC11E rotary encoder with push switch","1","Top right","Hackpad kit"
+"D1 to D13","1N4148 diode, DO-35 through-hole","13","Next to each switch","Hackpad kit"
+"LED1 to LED12","SK6812 MINI-E RGB LED (reverse mount)","12","Under each key","Hackpad kit"
+"J1 + display","0.91"" I²C OLED module, 4-pin header","1","Top left","Hackpad kit"
+"-","M3 × 16 mm screw","4","From underneath, through PCB corners","Hackpad kit"
+"-","M3 × 5 × 4 mm heat-set insert","4","Underside of the top frame, at the corners","Hackpad kit"
+"-","TechPad PCB, 92 × 87 mm, 2-layer","1","-","PCB fab (from gerbers.zip)"
+"-","Top frame, switch plate, bottom tray, knob cap","1 set","-","3D printed"
