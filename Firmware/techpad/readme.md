@@ -1,16 +1,15 @@
 # techpad
 
-![techpad](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+*Techpad is my version of macropad i built under hackpad challange stardance.it has 12keys,knob,OLed screen,RGB,XIAO,RP2040 and it is build to give a clean,smart and aesthetic look for people on a mission.*
 
 * Keyboard Maintainer: [Aarav Bhatt](https://github.com/MoonRock)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: *TechPad PCB v1.0, Seeed XIAO RP2040*
+* Hardware Availability: *Hack Club Hackpad kit*
 
 Make example for this keyboard (after setting up your build environment):
 
-    make techpad:default
+    how to flash: hold BOOT, plug in, drag the .uf2 onto the RPI-RP2 drive
 
 Flashing example for this keyboard:
 
@@ -22,6 +21,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 3 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
+* **Bootmagic reset**: Hold down the key at (2,2) in the matrix (usually the BOTTOM RIGHT left key or Escape) and plug in the keyboard
 * **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
