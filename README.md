@@ -1,4 +1,4 @@
-# My_TechPad
+****# My_TechPad
 
 - My OWN custom Macropad.
 ![FINALE OUTLOOK](Documentation/images/case-preview.png)
@@ -102,7 +102,7 @@
 - Ai has Played a important part in the project for me. I have never designed pcb,step files or used QMK before this and Ai has acted as my gude solving this challanges.This section Provides a complete discloure of the places where ai has played a part:
 1. To create the final design/product outlook upon which i have build my entire project.It is very important that one knows what one wants in the end. i have used ai to help me get a final image of the pad.
 2. I have asked Ai to create me guides and explanation pdfs for every bit of project(can be found under documentation).This guides has helped me understand the stuff i was working on .
-3.The schematic designs is all done by me , the footprints and all stuff. I have only asked claude to regularly review my files and do small automations.( the final routing is done by claude code. i had already created the schematic and had to just join the wires.)
+3.The schematic designs is all done by me , the footprints and all stuff. I have only asked claude to regularly review my files amd do  the final routing . i had already created the schematic and had to just join the wires.
 4. In Case Design , i have used claude ai to create me the drawings upon which i have created the designs.Claude has also helped me create steps file by providing me with macros code.(it was very labour intensive and repeatative work so ya)
 5. i can vouch for my 100% role in firmware devolpment. Claude has only acted as a mentor , and i have typed every peice of code.
 6. lastly i have used claude to review my files so that they match each other and are not incomplete anywhere.
