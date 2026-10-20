@@ -1,0 +1,24 @@
+ERC report (2026-10-20T15:31:18, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[multiple_net_names]: Both +3V3 and 3V3 are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(7100 mils, 6600 mils): Symbol #PWR03 Pin 1 [Power input, Line]
+    @(6250 mils, 6600 mils): Label '3V3'
+[multiple_net_names]: Both +5V and 5V are attached to the same items; +5V will be used in the netlist
+    ; warning
+    @(7100 mils, 6950 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+    @(6300 mils, 6950 mils): Label '5V'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(7150 mils, 7300 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+    @(6300 mils, 7300 mils): Label 'GND'
+
+ ** ERC messages: 3  Errors 0  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

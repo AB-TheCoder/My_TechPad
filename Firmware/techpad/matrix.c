@@ -1,3 +1,6 @@
+// Copyright 2026 Aarav bhatt(MoonRock)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 #include "matrix.h" 
 #include"gpio.h"
 #include "wait.h"
@@ -16,7 +19,7 @@ void matrix_init_custom(void) {
 
 bool matrix_scan_custom(matrix_row_t current_matrix[]) {
     bool matrix_has_changed = false;
-//creating new matrix for compariosn and identifing
+//creating new matrix for comparison and identifing
 //passA
     matrix_row_t new_matrix[MATRIX_ROWS]={0,0,0};
     for (uint8_t i= 0;i<3;i++){

@@ -89,13 +89,21 @@
 | - | TechPad PCB, 92 × 87 mm, 2-layer | 1 | - | PCB fab (from gerbers.zip) |
 | - | Top frame, switch plate, bottom tray, knob cap | 1 set | - | 3D printed |
 
+# "How to build" A numbered list covering:
+
+- Print: frame face-down, plate top-face-down with solid infill, tray floor-down, knob hole-side down. No supports.
+- Heat-set inserts: 4 × M3 into the underside of the frame.
+- Solder order: diodes (black stripe matches the silkscreen), XIAO on the back, LEDs, switches, encoder, then the - OLED raised about 3.5 mm on its pins.
+- Assembly: stack tray, PCB, plate, frame, then fit 4 × M3×16 screws from underneath and push on the knob.
+- Flash: hold the top-left key (or the XIAO BOOT button) while plugging in, then drag Production/firmware.uf2 onto the RPI-RP2 drive.
+- Link Documentation/reference/05_After_Parts_Arrive.pdf for full details.
 
 # Disclosure:
 - Ai has Played a important part in the project for me. I have never designed pcb,step files or used QMK before this and Ai has acted as my gude solving this challanges.This section Provides a complete discloure of the places where ai has played a part:
 1. To create the final design/product outlook upon which i have build my entire project.It is very important that one knows what one wants in the end. i have used ai to help me get a final image of the pad.
 2. I have asked Ai to create me guides and explanation pdfs for every bit of project(can be found under documentation).This guides has helped me understand the stuff i was working on .
-3.The schematic designs is all done by me , the footprints and all stuff. I have only asked claude to regularly review my files and do small automations.
-4. In Case Design , i have used claude ai to create me the drawings upon which i have created the designs.For some tasks i have asked it to create me macros file to do some complicated and repeatative tasks.
+3.The schematic designs is all done by me , the footprints and all stuff. I have only asked claude to regularly review my files and do small automations.( the final routing is done by claude code. i had already created the schematic and had to just join the wires.)
+4. In Case Design , i have used claude ai to create me the drawings upon which i have created the designs.Claude has also helped me create steps file by providing me with macros code.(it was very labour intensive and repeatative work so ya)
 5. i can vouch for my 100% role in firmware devolpment. Claude has only acted as a mentor , and i have typed every peice of code.
 6. lastly i have used claude to review my files so that they match each other and are not incomplete anywhere.
 
