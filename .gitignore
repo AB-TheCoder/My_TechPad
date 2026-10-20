@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Local archive of old backups (kept on disk, not in the repo)
+_archive/
 
-# Other files and folders
-.settings/
+# KiCad
+*.lck
+*.bak
+*-backups/
+.history/
+fp-info-cache
+*.kicad_prl
+DRC*.rpt
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# FreeCAD
+*.FCBak
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# QMK build output
+*.uf2
+!Production/*.uf2
+.build/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
