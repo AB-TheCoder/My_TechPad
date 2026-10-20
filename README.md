@@ -1,7 +1,7 @@
 # My_TechPad
 
 - My OWN custom Macropad.
-![FINALE OUTLOOK](Documentation\images\case-preview.png)
+![FINALE OUTLOOK](Documentation/images/case-preview.png)
 
 ---
 
